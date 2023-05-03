@@ -36,7 +36,7 @@
 
         let menuList = document.createElement("div");
         menuList.id = "menuListID";
-        menuList.style.width = "20vw";
+        //menuList.style.width = "20vw";
         //menuList.style.height = "100%";
         menuList.style.position = "fixed";
         menuList.style.left = "1vw";
@@ -347,6 +347,18 @@
             cursor: pointer;
             width: 85%;
             height: 85%;
+        }
+        
+        @media screen and (max-width:800px){
+            
+            #divImgMenu {
+                width: 10vw;
+                height: 10vw;
+            }
+            
+            a   {
+                font-size: 2vh;
+            }
         }
     </style>
 
